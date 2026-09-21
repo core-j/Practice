@@ -1,9 +1,7 @@
 public class ScopeTest {
         static int calculate(int x) {
 
-            int result = x * 2;
-
-            return result;
+            return x * 2;
         }
 
         public static void main(String[] args) {

@@ -1,7 +1,6 @@
 public class MethodsWithSubtraction {
         static int subtract(int a, int b) {
-            int result = a - b;
-            return result;
+            return a - b;
         }
         public static void main(String[] args) {
             int x = 20;
