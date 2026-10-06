@@ -13,6 +13,8 @@ public class ArrayListClass {
         System.out.println(al.isEmpty());
         System.out.println(al.size());
         System.out.println(al.remove(2));
+        al.set(2,20);
+        System.out.println(al.remove(1));
         System.out.println(al);
         ArrayList<Integer> al1 =new ArrayList<Integer>();
         al1.addAll(al);
